@@ -1,0 +1,21 @@
+.App {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .modal {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      z-index: 100;
+      display: grid;
+      place-items: center;
+      &__content {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+      }
+    }
+  }
+}
